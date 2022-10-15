@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: pink;
+    font-family: "Montserrat", "sans-serif";
+    background-color: #ffe4ee;
+}
+
+:root {
+    --primary-color: #fb7185;
+    --offwhite-color: #f3f4f6;
+    --secondary-color: #fecdd3;
+}
+
+
+.head {
+    border-radius: 20px;
+    background-color: #fb7185;
+    height: 120px;
+    color: white;
+}
+
+.container {
+    width: 85%;
+    height: 77vh;
+    margin-left: 110px;
+    border-radius: 10px;
+    margin-top: 18px;
+    background-color: #fecdd3;
+}
+
+img {
+
+    height: 60vh;
+    width: 100%;
+
+}
+
+.list-inline {
+    display: inline;
+    text-decoration: none;
+    margin: 0 1 rem;
+}
+
+.list-nonbullet {
+    text-align: right;
+    font-size: 1.2 rem;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 5px;
+
+}
+
+.list-inline {
+    display: inline;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding-bottom: 10px;
+    ;
+
+
+}
+
+.list {
+    word-spacing: 38px;
+    font-size: 1.2rem;
+
+
+
+    /* display: inline-block; */
+}
+
+.headline {
+    text-align: center;
+}
+
+#highlight {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+#head-two {
+    width: 100%;
+    height: 15vh;
+    border-radius: 12px;
+    margin-top: 27px;
+    background-color: #fb7185;
+}
+
+.container-two {
+    width: 85%;
+    height: 74vh;
+    margin-left: 110px;
+    border-radius: 10px;
+    margin-top: 131px;
+    background-color: #fecdd3;
+    text-align: center;
+}
+
+#btn {
+    width: 12%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #fb7185;
+    font-size: medium;
+}
+
+#head-three {
+    width: 100%;
+    height: 19vh;
+    border-radius: 12px;
+    margin-top: 32px;
+    background-color: #fb7185;
+}
+
+.footer {
+    width: 100%;
+    height: 110px;
+    margin-top: 155px;
+    background-color: #fecdd3;
+    border-radius: 12px;
+
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* -----------------------Projects------------------------ */
+
+
+#section img {
+    height: 45vh;
+    ;
+}
+
+#block {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-top: 4rem;
+    box-shadow: 10px 8px 7px 8px #947075;
+    height: 200px;
+    padding-top: 0.5rem;
+}
+.link-primary{
+    background-color: #e40e2d;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: white;
+}
+.link-secondary{
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    background-color: #e11d48;
+    color: white;
+}
