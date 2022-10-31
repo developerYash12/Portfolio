@@ -166,3 +166,13 @@ a:hover {
     background-color: #6C63FF;
     color: white;
 }
+#blockB {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-top: 4rem;
+    box-shadow: 10px 8px 7px 8px #f3f4f6;
+    height: 50vh;
+    padding-top: 0.5rem;
+}
