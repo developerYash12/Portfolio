@@ -1,78 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blog || Yash Shrivastava</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Blogs | YashShrivastava</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
-
 <body>
 
-    <!-- ------Header------------------ -->
-    <nav class=nav-container>
-        <div class="head">
-            <h1 style="display: inline-block;">DeveloperYash</h1>
-            <div class="list">
-                <ul class="list-nonbullet">
-                    <li class="list-inline">
-                        <a href="index.html" target="_self">Home</a>
-                    </li>
-                    <li class="list-inline" type="button">
-                        <a href="projects.html" target="_self">Projects</a>
-                    </li>
-                    <li class="list-inline">
-                        <a href="blog.html" target="_self">Blogs</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-
-        <!-- -----------------------section Block ----------------- -->
-
-        <div id="section">
-            <h1 style="text-align: center; font-size: xx-large;"><span>Read my Blogs !
-                </span></h1>
-        </div>
-        <div id="block" style="background-color: gray;">
-            <h1><span>First Dummy blog</span></h1>
-            <p>21st August 2022</p>
-            <p2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure unde excepturi ea expedita totam sit. Sit, deserunt? Commodi esse aperiam ex natus veritatis sed quos, minima facilis quae ipsam ad voluptates minus molestisa.</p2><br><br>
-            <a href="dummy-blogs.html" target="_blank" class="link link-primary">Read More</a>
-        </div>
-
-        <div id="block" style="background-color: gray;">
-            <h1><span>Second Dummy Blog</span></h1>
-            <p>21st August 2022</p>
-            <p2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quaerat ea corrupti ducimus ratione libero sequi doloremque atque, nesciunt cumque voluptate earum non ullam suscipit harum praesentium! Dolorem, iusto voluptatibus cumque quibusdam eius dicta blanditiis?</p2><br><br>
-            <a href="dummy-blogs.html
-            " target="_blank" class="link link-primary">Read More</a>
-        </div>
-
-        <!-- -------------Footer------------------------ -->
-
-
-        <div class="footer">
-            <h4 style="font-size:23px; color: white">Connect With Me</h4>
-            <div class="list">
-                <ul class="list-nonbullet">
-                    <li class="list-inline">
-                        <a href="https://www.instagram.com/accounts/login/">Instagram</a>
-                    </li>
-                    <li class="list-inline" type="button">
-                        <a href="https://www.linkedin.com/in/yash-shrivastava-9b09b121b/">LinkedIn</a>
-                    </li>
-                    <li class="list-inline">
-                        <a href="https://github.com/developerYash12">GitHub</a>
-                    </li>
-                </ul>
+    <nav class="navigation container">
+        <div class="nav-brand">I AM A DEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
     
+    <header class="hero">
+        <h1 class="hero-heading"> Read My Blogs </h1>
+    </header>
+
+    <section class="blog-section">
+        <div class="container container-center">
+            <h2>CSS units</h2>
+            <small>September, 2022</small>
+            <p>Let's look at what CSS is before learning about CSS units. CSS stands for Cascading Style Sheet, and it is used to style web pages. By using CSS, we may customize...
+            </p>
+            <a class="link link-primary" href="./blogs/CSS-units.html">Read More</a>
             </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="container container-center">
+            <h2>Basics of HTML</h2>
+            <small>September, 2022</small>
+            <p>The core components of HTML are tags, elements, and attributes. The beginning and the end of an HTML element are represented by tags. HTML tags have a start of < and end... 
+            </p>
+            <a class="link link-primary" href="./blogs/basics-of-html.html">Read More</a>
         </div>
-    
+    </section>
+        
+    <footer class="footer">
+        <div class="footer-header">connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/sweta1308/" target="_blank">github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/AgarwallaSweta/" target="_blank">twitter</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/sweta-agarwalla-45aa2324a" target="_blank">linkedin</a></li>
+        </ul>
+    </footer>
+
 </body>
-
 </html>
